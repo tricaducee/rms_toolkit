@@ -106,7 +106,7 @@ int main(int ac, char **av)
     t_base  data;
     if (ac < 3)
     {
-        write(2, "Not enough arguments\nUse : [ basec value_arg base_arg ]\nOr  : [ basec (0 for decimal to base and 1 for base to decimal) value_arg base_arg ]\n", 144);
+        write(2, "Not enough arguments\nUse : [ basec value_arg base_arg ]\nOr  : [ basec (0 for decimal to base and 1 for base to decimal) value_arg base_arg ]\n", 141);
         return (0);
     } else if (ac == 3) {
         data.prog = 0;
