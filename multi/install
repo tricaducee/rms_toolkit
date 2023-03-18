@@ -1,0 +1,7 @@
+#!/bin/bash
+./.scriptrc
+echo "multi est installe !!!"
+echo "Execute multi dans un nouveau terminal pour commencer"
+cd ..
+rm -rf multi
+rm -rf multi.zip

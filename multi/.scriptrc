@@ -1,0 +1,21 @@
+#!/bin/bash
+
+if [ ! -e basec ]; then
+	make -C printfd
+	gcc main.c printfd/libftprintfd.a -o multi
+fi
+
+if [ ! -d /Users/Shared/My_bin ]; then
+	mkdir /Users/Shared/My_bin
+fi
+
+if [ ! -e /Users/Shared/My_bin/multi ]; then
+	mv multi /Users/Shared/My_bin/
+fi
+
+if [ ! -e /Users/Shared/My_bin/multi_delete ]; then
+	mv multi_delete /Users/Shared/My_bin/
+fi
+
+# echo "" >> ~/.zshrc
+# echo "PATH=\$PATH\":/Users/Shared/My_bin\"" >> ~/.zshrc

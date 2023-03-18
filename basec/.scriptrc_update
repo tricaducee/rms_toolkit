@@ -1,0 +1,21 @@
+#!/bin/bash
+
+if [ ! -e basec ]; then
+	gcc -o basec basec.c
+fi
+
+if [ ! -d /Users/Shared/My_bin ]; then
+	mkdir /Users/Shared/My_bin
+fi
+
+if [ -e /Users/Shared/My_bin/basec ]; then
+	rm /Users/Shared/My_bin/basec
+fi
+
+mv basec /Users/Shared/My_bin/
+
+if [ -e /Users/Shared/My_bin/basec_delete ]; then
+	rm /Users/Shared/My_bin/basec_delete
+fi
+
+mv basec_delete /Users/Shared/My_bin/

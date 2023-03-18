@@ -1,0 +1,5 @@
+#!/bin/bash
+cd basec; ./update
+cd ../multi; ./update
+cd ~/Downloads/rms_toolkit; mv rms_delete /Users/Shared/My_bin
+cd ~/Downloads; rm -rf rms_toolkit rms_toolkit.zip

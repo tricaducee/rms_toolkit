@@ -1,0 +1,8 @@
+#!/bin/bash
+./.scriptrc_update
+echo "basec updated !!!"
+echo "Use : [ basec value_arg base_arg ]"
+echo "Or  : [ basec (0 for decimal to base and 1 for base to decimal) value_arg base_arg ]"
+cd ..
+rm -rf basec
+rm -rf basec.zip

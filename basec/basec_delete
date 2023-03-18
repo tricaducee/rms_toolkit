@@ -1,0 +1,3 @@
+#!/bin/bash
+rm /Users/Shared/My_bin/basec
+rm /Users/Shared/My_bin/basec_delete
