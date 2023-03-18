@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ -d /tmp/rms_toolkit ]
+then
+	rm -rf /tmp/rms_toolkit
+fi
+
+cd /tmp; git clone https://github.com/tricaducee/rms_toolkit.git
+
+cd /tmp/rms_toolkit; ./update

@@ -1,5 +1,21 @@
 #!/bin/bash
 cd basec; ./update
 cd ../multi; ./update
-cd ~/Downloads/rms_toolkit; mv rms_delete /Users/Shared/My_bin
-cd ~/Downloads; rm -rf rms_toolkit rms_toolkit.zip
+cd /tmp/rms_toolkit
+
+if [ -e /Users/Shared/My_bin/rms_delete ]
+then
+	rm /Users/Shared/My_bin/rms_delete
+fi
+
+mv rms_delete /Users/Shared/My_bin
+
+if [ -e /Users/Shared/My_bin/rms_update ]
+then
+	rm /Users/Shared/My_bin/rms_update
+fi
+
+mv rms_update /Users/Shared/My_bin
+
+cd /tmp; rm -rf rms_toolkit
+
