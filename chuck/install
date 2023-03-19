@@ -1,0 +1,7 @@
+#!/bin/bash
+./.scriptrc
+NAME="chuck"
+echo "$(NAME) est installe !!!"
+echo "Execute $(NAME) dans un nouveau terminal pour commencer"
+cd ..
+rm -rf $(NAME)

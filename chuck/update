@@ -1,0 +1,7 @@
+#!/bin/bash
+./.scriptrc_update
+NAME="chuck"
+echo "$(NAME) est mis a jour !!!"
+echo "Execute $(NAME) dans un nouveau terminal pour commencer"
+cd ..
+rm -rf $(NAME)

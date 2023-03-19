@@ -1,0 +1,4 @@
+#!/bin/bash
+NAME="chuck"
+rm /Users/Shared/My_bin/$(NAME)
+rm /Users/Shared/My_bin/$(NAME)_delete

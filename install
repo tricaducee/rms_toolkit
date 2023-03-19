@@ -1,6 +1,7 @@
 #!/bin/bash
 cd basec; ./install
 cd ../multi; ./install
+cd ../chuck; ./install
 cd /tmp/rms_toolkit
 
 if [ ! -e /Users/Shared/My_bin/rms_delete ]

@@ -1,0 +1,23 @@
+#!/bin/bash
+
+NAME="chuck"
+
+if [ ! -e $(NAME) ]; then
+	gcc main.c -o $(NAME)
+fi
+
+if [ ! -d /Users/Shared/My_bin ]; then
+	mkdir /Users/Shared/My_bin
+fi
+
+if [ -e /Users/Shared/My_bin/$(NAME) ]; then
+	rm /Users/Shared/My_bin/$(NAME)
+fi
+
+mv $(NAME) /Users/Shared/My_bin/
+
+if [ -e /Users/Shared/My_bin/$(NAME)_delete ]; then
+	rm /Users/Shared/My_bin/$(NAME)_delete
+fi
+
+mv $(NAME)_delete /Users/Shared/My_bin/

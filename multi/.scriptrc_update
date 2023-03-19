@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ ! -e basec ]; then
+if [ ! -e multi ]; then
 	make -C printfd
 	gcc main.c printfd/libftprintfd.a -o multi
 fi
