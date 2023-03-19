@@ -1,4 +1,3 @@
 #!/bin/bash
-NAME="chuck"
-rm /Users/Shared/My_bin/$(NAME)
-rm /Users/Shared/My_bin/$(NAME)_delete
+rm /Users/Shared/My_bin/chuck
+rm /Users/Shared/My_bin/chuck_delete
