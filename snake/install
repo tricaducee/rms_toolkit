@@ -1,0 +1,6 @@
+#!/bin/bash
+./.scriptrc
+# echo "snake est installe !!!"
+# echo "Execute snake dans un nouveau terminal pour commencer"
+cd ..
+rm -rf snake

@@ -1,0 +1,6 @@
+#!/bin/bash
+./.scriptrc_update
+echo "serge est mis a jour !!!"
+echo "Execute serge dans un nouveau terminal pour commencer"
+cd ..
+rm -rf serge

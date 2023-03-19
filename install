@@ -2,6 +2,8 @@
 cd basec; ./install
 cd ../multi; ./install
 cd ../chuck; ./install
+cd ../serge; ./install
+cd ../snake; ./install
 cd /tmp/rms_toolkit
 
 if [ ! -e /Users/Shared/My_bin/rms_delete ]

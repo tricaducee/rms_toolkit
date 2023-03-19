@@ -1,0 +1,20 @@
+#!/bin/bash
+
+if [ ! -e serge ]; then
+	gcc main.c -o serge
+fi
+
+if [ ! -d /Users/Shared/My_bin ]; then
+	mkdir /Users/Shared/My_bin
+fi
+
+if [ ! -e /Users/Shared/My_bin/serge ]; then
+	mv serge /Users/Shared/My_bin/
+fi
+
+if [ ! -e /Users/Shared/My_bin/serge_delete ]; then
+	mv serge_delete /Users/Shared/My_bin/
+fi
+
+# echo "" >> ~/.zshrc
+# echo "PATH=\$PATH\":/Users/Shared/My_bin\"" >> ~/.zshrc

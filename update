@@ -2,6 +2,8 @@
 cd basec; ./update
 cd ../multi; ./update
 cd ../chuck; ./update
+cd ../serge; ./update
+cd ../snake; ./update
 cd /tmp/rms_toolkit
 
 if [ -e /Users/Shared/My_bin/rms_delete ]

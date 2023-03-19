@@ -1,0 +1,3 @@
+#!/bin/bash
+rm /Users/Shared/My_bin/snake
+rm /Users/Shared/My_bin/snake_delete
