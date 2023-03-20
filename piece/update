@@ -1,0 +1,6 @@
+#!/bin/bash
+./.scriptrc_update
+echo "piece est mis a jour !!!"
+echo "Execute piece dans un nouveau terminal pour commencer"
+cd ..
+rm -rf piece

@@ -1,0 +1,6 @@
+#!/bin/bash
+./.scriptrc
+echo "piece est installe !!!"
+echo "Execute piece dans un nouveau terminal pour commencer"
+cd ..
+rm -rf piece

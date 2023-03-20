@@ -1,0 +1,3 @@
+#!/bin/bash
+rm /Users/Shared/My_bin/piece
+rm /Users/Shared/My_bin/piece_delete

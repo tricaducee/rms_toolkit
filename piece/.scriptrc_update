@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+if [ ! -e piece ]; then
+	gcc main.c -o piece
+fi
+
+if [ ! -d /Users/Shared/My_bin ]; then
+	mkdir /Users/Shared/My_bin
+fi
+
+if [ -e /Users/Shared/My_bin/piece ]; then
+	rm /Users/Shared/My_bin/piece
+fi
+
+mv piece /Users/Shared/My_bin/
+
+if [ -e /Users/Shared/My_bin/piece_delete ]; then
+	rm /Users/Shared/My_bin/piece_delete
+fi
+
+mv piece_delete /Users/Shared/My_bin/

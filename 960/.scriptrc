@@ -1,0 +1,20 @@
+#!/bin/bash
+
+if [ ! -e 960 ]; then
+	gcc main.c -o 960 
+fi
+
+if [ ! -d /Users/Shared/My_bin ]; then
+	mkdir /Users/Shared/My_bin
+fi
+
+if [ ! -e /Users/Shared/My_bin/960 ]; then
+	mv 960 /Users/Shared/My_bin/
+fi
+
+if [ ! -e /Users/Shared/My_bin/960_delete ]; then
+	mv 960_delete /Users/Shared/My_bin/
+fi
+
+# echo "" >> ~/.zshrc
+# echo "PATH=\$PATH\":/Users/Shared/My_bin\"" >> ~/.zshrc
