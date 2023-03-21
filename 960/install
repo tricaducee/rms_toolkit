@@ -1,6 +1,6 @@
 #!/bin/bash
 ./.scriptrc
-# echo "960 est installe !!!"
-# echo "Execute 960 dans un nouveau terminal pour commencer"
+echo "960 est installe !!!"
+echo "Execute 960 dans un nouveau terminal pour commencer"
 cd ..
 rm -rf 960
